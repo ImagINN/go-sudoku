@@ -42,8 +42,8 @@ func isInputValid(list []string) bool {
 	if len(list) != size {
 		return false
 	}
-	for _, row := range list {
-		if len(row) != size {
+	for _, col := range list {
+		if len(col) != size {
 			return false
 		}
 	}
